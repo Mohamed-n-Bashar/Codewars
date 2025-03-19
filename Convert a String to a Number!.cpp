@@ -1,11 +1,5 @@
-#include <iostream>
-using namespace std;
+#include <string>
 
-int main(){
-  string s = "123";
-  
-  cout << int(s[0]) << "\n";
-  cout << int(1) << "\n";
-
-  return 0;
+int string_to_number(const std::string& s) {
+  return stoi(s);
 }
